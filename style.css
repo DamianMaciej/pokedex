@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(35, 130, 255);
+}
+
+.container {
+    display: grid;
+    margin-top: 20vh;
+    grid-template-rows: minmax(10vh 5vh 10vh);
+}
+
+.wrapper {
+    align-self: center;
+    justify-self: center;
+    width: 70vw;
+    display: grid;
+    grid-template-rows: minmax(10vh);
+    grid-template-columns: 35vw 35vw;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: white 3px solid;
+}
+
+.label {
+    align-self: center;
+    justify-self: center;
+    width: 35vw;
+    padding: 10px 0px 10px 10px;
+    color: white;
+    background-color: rgb(35, 130, 255);
+}
+
+.pokemon {
+    align-self: center;
+    justify-self: center;
+    width: 33vw;
+    padding: 10px 10px 10px 0px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(35, 130, 255);
+    border: 0px;
+    outline: none;
+}
+
+.pokemonSpicies {
+    display: grid;
+    justify-self: center;
+    width: 70vw;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: white;
+    border: white 3px solid;
+    background-color: rgb(35, 130, 255);
+}
+
+.pokemonName {
+    text-transform: capitalize;
+    padding: 3px;
+    border-radius: 5px;
+    color: rgb(35, 130, 255);
+    border: white 2px solid;
+    background-color: rgb(255, 255, 255);
+}
+
+.pokemonImg {
+    justify-self: center;
+    height: 8rem;
+}
+
+span {
+    justify-self: center;
+    margin: 10px;
+}
+
+.wrapperStats {
+    display: grid;
+    grid-template-rows: minmax(10vh);
+    grid-template-columns: 35vw 35vw;
+    font-size: 1rem;
+}
+
+.searchPokemon {
+    align-self: center;
+    justify-self: center;
+    padding: 5px;
+    margin-bottom: 20vh;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: rgb(35, 130, 255);
+    border: rgb(20, 72, 141)2px solid;
+    background-color: rgb(20, 72, 141);
+}
+
+.searchPokemon:hover {
+    color: blanchedalmond;
+    border: rgb(20, 72, 141) 2px solid;
+    background-color: rgb(20, 72, 141);
+}
+
+.searchPokemon:active {
+    border: rgb(255, 255, 255) 2px solid;
+    background-color: rgb(255, 255, 255);
+    color: rgb(35, 130, 255);
+}
